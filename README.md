@@ -38,4 +38,5 @@ See [example-sdxl.py](https://github.com/painebenjamin/instant-multidiffusion/bl
 - [ ] Wrap-around (tiling images)
 - [ ] Tile batching (sacrifice some memory savings for faster generation)
 - [ ] FLUX compatibility
+- [ ] Animation compatbility (`enable_3d_multidiffusion`)
 - [ ] Include example for using Multi-Diffusion for regional prompting
