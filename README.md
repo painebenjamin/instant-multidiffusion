@@ -7,6 +7,8 @@ from multidiffusion import enable_2d_multidiffusion
 enable_2d_multidiffusion(pipeline.unet) # or `pipeline.transformer`
 ```
 
+*This is a work in progress.*
+
 # What is Multi-Diffusion?
 
 See [multidiffusion.github.io](https://multidiffusion.github.io/) for the original paper, for our purposes, it is:
