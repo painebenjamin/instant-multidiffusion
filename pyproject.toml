@@ -3,7 +3,7 @@ requires = ["setuptools>=64", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "instant-multidiffusion"
+name = "multidiffusion"
 dynamic = ["version"]
 description = "Inject multi-diffusion into your UNets/Transformers with two lines of code."
 readme = "README.md"
