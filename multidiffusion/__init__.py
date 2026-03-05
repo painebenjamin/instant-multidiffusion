@@ -12,5 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from importlib.metadata import version, PackageNotFoundError
+
+try:
+    __version__ = version("instant-multidiffusion")
+except PackageNotFoundError:
+    __version__ = "0.0.0"
+
 from .multidiffusion import enable_2d_multidiffusion, disable_2d_multidiffusion
-__all__ = ["enable_2d_multidiffusion", "disable_2d_multidiffusion"]
+__all__ = ["enable_2d_multidiffusion", "disable_2d_multidiffusion", "__version__"]
