@@ -7,7 +7,7 @@ name = "instant-multidiffusion"
 dynamic = ["version"]
 description = "Inject multi-diffusion into your UNets/Transformers with two lines of code."
 readme = "README.md"
-license = "Apache-2.0"
+license = {text = "Apache-2.0"}
 requires-python = ">=3.8"
 authors = [
     { name = "Benjamin Paine" },
